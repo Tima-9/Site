@@ -1,0 +1,223 @@
+/* body */
+body {
+    background-color: #ECE5DF;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0%;
+}
+/* header */
+.header {
+    background-color: #C4C7B6;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+
+    height: 182px;
+
+    /* for ex. */
+    margin-bottom: 653px;
+}
+.upper-nav {
+    background-color: #C4C7B6;
+    height: 125px;
+    margin-left: 299px;
+    align-items: center;
+    display: flex;
+}
+.lower-nav {
+    background-color: #859B47;
+    height: 59px;
+}
+a {
+    text-decoration: none;
+}
+.not-finished-photo {
+    background-color: #1C371F;
+    border: 5px solid #859B47;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo > .not-finished-photo {
+    width: 100px;
+    height: 80px;   
+    display: inline-block; 
+    margin: 20px 0 25px 0;
+}
+input[type="text"].menu-input {
+    width: 456px;
+    height: 35px;
+    background-color: #C4C7B6;
+    border: none;
+    border-bottom: 3px solid #859B47;
+    box-sizing: border-box;
+    margin: 48px 0 42px 32px;
+    display: inline-block;
+}
+input[type="text"].menu-input::-webkit-input-placeholder {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0%;
+    font-weight: 600;
+    color: #1C371F;
+    background-color: #C4C7B6;
+}
+.phone {
+    display: inline-block;
+    margin: 48px 0 42px 32px;
+    width: 262px;
+    height: 35px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0%;
+    font-weight: 700;
+    color: #1C371F;
+}
+.menu-items {
+    display: flex;
+    height: 95px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.menu-item {
+    padding-top: 30px;
+}
+.menu-item, .sub-menu-item,
+.lower-menu-item {
+    list-style-type: none;
+    display: flex;
+}
+.menu-line {
+    background-color: #1C371F;
+    width: 2px;
+    height: 65px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.menu-item:hover {
+    background-color: #859B47;
+}
+#menu-list:hover {
+    background-color: #C4C7B6;
+}
+.menu-item > .container > .not-finished-photo {
+    width: 40px;
+    height: 36px;
+    margin: 0 auto;
+}
+.item-text {
+    display: block;
+    margin: 7px 14px 0 14px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 90px;
+    height: 17px;
+}
+#trash {
+    width: 56px;
+    height: 17px;
+    font-size: 11px;
+}
+.sub-menu {
+    padding: 0;
+    margin-right: 9px;
+    display: grid;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 700;
+}
+.sub-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#account-photo {
+    margin: 0 6px 0 7px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #859B47;
+}
+#language-photo {
+    margin: 0 6px 0 8px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #859B47;
+    border-radius: 0;
+}
+#lang {
+    border: none;
+    text-align: left;
+    padding: 0;
+    background-color: #C4C7B6;
+    font-size: 11px;
+    font-weight: 700;
+}
+.sub-menu-item > .container {
+    display: flex;
+    justify-content: space-between;
+}
+.ln-bt-img {
+    margin-left: 5px;
+}
+.lower-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lower-menu-text {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
+#all-categories {
+    margin: 0 26px 0 13px;
+}
+#sales {
+    margin: 0 26px 0 0px;
+}
+.lower-menu-item {
+    height: 59px;
+    padding: 0 14px 0 14px;
+}
+.lower-menu-item > .container,
+.footer > .container > .nav{
+    display: inline-flex;
+    align-items: center;
+}
+.lower-menu-item:hover {
+    background-color: #C4C7B6;
+}
+.lower-menu {
+    display: flex;
+}
+.lower-menu-line {
+    width: 2px;
+    height: 58px;
+    background-color: #1C371F;
+}
+
+/* footer */
+.footer {
+    background-color: #859B47;
+    height: 118px;
+}
+.footer > .container > .nav {
+    height: 118px;
+    align-items: center;
+}
+.callback {
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer > .container > .nav > .phone {
+    margin: 0 0 0 164px;
+}
+.we-online {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 19px 0 780px;
+}
+.sites {
+    font-size: 16px;
+    font-weight: 600;
+}
